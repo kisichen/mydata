@@ -1,0 +1,30 @@
+基础支持: 获取access_token接口 /token
+请求地址：
+https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx8c91ffd86d7a7d3f&secret=0d562195ee4d3d5356268d690b11e79e
+返回结果:
+200	OK
+Connection: close
+Date: Mon, 26 Mar 2018 01:49:44 GMT
+Content-Type: application/json; encoding=utf-8
+Content-Length: 172
+{
+    "access_token": "8_Cgsdx5smQbnwV_gS8f8IORo10lrt09w9ixURHKXJ264MRtWaV3VeGqj3Y5jy-sWJ55JC5nefiizaHzlAFSp2QTYYrV33mx_HTSgSUcUXAvpnYrvnDGFw-ezehlwXFYdAEADLE", 
+    "expires_in": 7200
+}
+提示:
+Request successful
+
+
+
+
+
+
+AppID    	 wx08f787cc4e5cb59f
+AppSecret 	 77d42c3b11cbf53821bdca76199f7a38
+
+
+
+
+import sys   
+sys.setrecursionlimit(50000)
+block_cipher = None
